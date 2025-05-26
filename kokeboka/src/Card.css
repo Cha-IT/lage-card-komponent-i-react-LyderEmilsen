@@ -59,7 +59,7 @@
     box-sizing: border-box;
 }
 
-/* css for telefoner */
+/* css telefoner */
 @media (max-width: 600px) {
     .card, .oppskrift-detalj {
         max-width: 100vw;
