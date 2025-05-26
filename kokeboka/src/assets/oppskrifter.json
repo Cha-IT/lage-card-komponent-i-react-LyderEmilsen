@@ -199,26 +199,5 @@
       "Kjør til en jevn smoothie.",
       "Server straks."
     ]
-  },
-  {
-    "id": 10,
-    "navn": "Omelett",
-    "beskrivelse": "En enkel omelett med ost og skinke.",
-    "ingredienser": [
-      "3 egg",
-      "2 ss melk",
-      "1/2 ts salt",
-      "1/4 ts pepper",
-      "50g skinke",
-      "50g revet ost",
-      "Smør til steking"
-    ],
-    "fremgangsmåte": [
-      "Visp sammen egg, melk, salt og pepper.",
-      "Hell røren i en varm stekepanne med smør.",
-      "Strø over skinke og ost.",
-      "Stek til omeletten er fast.",
-      "Brett omeletten og server."
-    ]
   }
 ]
