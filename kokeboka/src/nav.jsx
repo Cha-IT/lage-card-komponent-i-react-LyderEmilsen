@@ -1,21 +1,20 @@
-import { Link } from 'react-router-dom';
-import './nav.css';
-
+import './nav.css'
+import { NavLink } from 'react-router-dom'
+ 
 function Nav(){
-
+ 
     return(
         <>
-            <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/oppskrifter">Oppskrifter</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    
-                </ul>
-            </nav>
-        
+        <nav>
+            <ul>
+                <li><NavLink to="/" end>Home</NavLink></li>
+                <li><NavLink to="/oppskrifter">Oppskrifter</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li>
+            </ul>
+        </nav>
         </>
     )
+ 
 }
 
 export default Nav;

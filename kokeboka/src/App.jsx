@@ -5,6 +5,7 @@ import Index from './index.jsx'
 import About from './about.jsx'
 import Oppskrifter from './oppskrifter.jsx'
 import Oppskrift from './oppskrift.jsx'
+import Footer from './footer.jsx'
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/oppskrift/:id' element={<Oppskrift />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   )
 }
